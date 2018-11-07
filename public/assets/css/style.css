@@ -1,0 +1,50 @@
+.jumbotron {
+    text-align: center;
+    color: white;
+    background: rgba(46, 46, 173, 0.808);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.container .row {
+    margin: auto;
+    width: 80%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.toEat {
+    margin: auto;
+    color: white;
+    background: rgba(177, 27, 27, 0.651);
+    text-align: center;
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.eaten {
+    margin: auto;
+    color: white;
+    background: rgba(21, 122, 21, 0.623);
+    text-align: center;   
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.collection {
+    background: rgba(0, 0, 0, 0.199);
+    padding: 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.664);
+}
+
+.input-group {
+    margin: auto;
+    width: 80%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.input-group .btn {
+    background: rgba(46, 46, 173, 0.808);
+}
+
+nav {
+    background: rgba(46, 46, 173, 0.808);
+}
