@@ -4,7 +4,11 @@
             <h3>Burgers to eat</h3>
             <hr>
             <ul class="collection">
-                {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block devoured=false}} {{/unless}} {{/each}}
+                {{#each burgers}}
+                {{#unless devoured}}
+                {{this.id}}. {{this.burgerName}}
+                {{/unless}}
+                {{/each}}
             </ul>
         </div>
         <div class="col-sm-6 eaten">

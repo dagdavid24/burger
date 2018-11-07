@@ -11,14 +11,14 @@ router.get("/", function(req,res){
 	})
 })
 
-router.put("/api/burgers", function(req,res){
+router.put("/api/burgers/update", function(req,res){
 	burger.updateOne(req.body.id, function(result){
 		console.log(result);
 		res.redirect("/");
 	})
 });
 
-router.post("/api/burgers/create", function(req, res){
+router.post("/burgers/create", function(req, res){
 	burger.insertOne(req.body.burgerName, function(result){
 		res.redirect("/")
 	})
